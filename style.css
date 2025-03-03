@@ -12,7 +12,7 @@ body {
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
     min-height: 100vh; /* La page prend toute la hauteur de la fenêtre */
-    background-color: #080838; /* Couleur de fond gris clair */
+    background-color: #080838; /* Couleur de fond bleu marine */
 }
 
 input, button{
