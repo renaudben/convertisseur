@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de Devise</title>
+    <!-- Lien vers le fichier CSS pour la mise en forme de la page -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Conteneur principal de l'application -->
+    <div class="container">
+        <!-- Titre de l'application -->
+        <h1>Convertisseur de Devise</h1>
+        
+        <div class="conversion">
+            <!-- Champ d'entrée pour afficher les montants que l'utilisateur entre -->
+            <input type="text" id="amount" class="input-field" placeholder="Entrez un montant" disabled>
+
+            <!-- Zone pour afficher le résultat de la conversion -->
+            <div class="result">
+                <h2 id="resultAmount">Résultat : 0</h2>
+            </div>
+
+            <div class="conversion-buttons">
+                <!-- Boutons pour lancer la conversion FCFA → EURO et EURO → FCFA -->
+                <button class="convert-btn" id="convertToEuro">FCFA → EURO</button>
+                <button class="convert-btn" id="convertToXOF">EURO → FCFA</button>
+            </div>
+            
+            <!-- Pavé numérique avec les chiffres de 0 à 9 -->
+            <div class="num-pad">
+                <button class="num-btn" value="1">1</button>
+                <button class="num-btn" value="2">2</button>
+                <button class="num-btn" value="3">3</button>
+                <button class="num-btn" value="4">4</button>
+                <button class="num-btn" value="5">5</button>
+                <button class="num-btn" value="6">6</button>
+                <button class="num-btn" value="7">7</button>
+                <button class="num-btn" value="8">8</button>
+                <button class="num-btn" value="9">9</button>
+                <button class="btn" id="clear">C</button>
+                <button class="num-btn" value="0">0</button>
+                <button class="btn" id="reset">X</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lien vers le fichier JavaScript pour le comportement interactif -->
+    <script src="script.js"></script>
+</body>
+</html>
