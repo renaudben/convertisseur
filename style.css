@@ -104,3 +104,10 @@ h1 {
     font-weight: bold; /* Met en gras le texte */
     color: #333; /* Couleur du texte */
 }
+
+.signature {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 30px 0px;
+    text-align : center;
+}
