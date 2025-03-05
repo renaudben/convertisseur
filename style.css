@@ -25,8 +25,6 @@ input, button{
     width: 400px; /* Largeur du conteneur */
     background-color: #fff; /* Fond blanc pour la "carte" */
     padding: 20px; /* Espacement autour du contenu */
-    /* border-radius: 10px; */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre discrète autour du conteneur */
     text-align: center; /* Texte centré */
 }
 
@@ -63,7 +61,6 @@ h1 {
     border: 1px solid #ccc; /* Bordure grise */
     border-radius: 5px; /* Contours arrondis */
     cursor: pointer; /* Curseur pour indiquer que c'est cliquable */
-    transition: background-color 0.3s ease; /* Animation douce au survol */
 }
 
 /* Effet de survol pour les boutons du pavé numérique */
